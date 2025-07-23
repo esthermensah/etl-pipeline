@@ -1,0 +1,9 @@
+datasets:
+  - name: http_requests_total
+    endpoint: http/top/locations
+    value_key: http_requests_total
+  - name: ipv4_http_requests
+    endpoint: http/top/locations/ip_version/ipv4
+    value_key: ipv4_http_requests
+    params:
+      metric: ip_version/IPv4
