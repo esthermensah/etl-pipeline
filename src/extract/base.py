@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import requests
 import logging
+import pandas as pd
 
 class Extractor(ABC):
     def __init__(self, config, headers):
