@@ -1,1 +1,17 @@
-/venv
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Data and logs
+data/processed/*
+data/logs/*
+
+# IDE files
+.vscode/
+.idea/
